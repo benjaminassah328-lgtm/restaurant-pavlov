@@ -11,14 +11,16 @@ type Product = {
 };
 
 const products: Product[] = [
-  { id: 1, img: "/images/maca.png" },
-  { id: 2, img: "/images/maca.png" },
-  { id: 3, img: "/images/maca.png" },
-  { id: 4, img: "/images/maca.png" },
-  { id: 5, img: "/images/maca.png" },
-  { id: 6, img: "/images/maca.png" },
-  { id: 7, img: "/images/maca.png" },
+  { id: 1, img: "/images/attiéké-poisson-braisé.png" },
+  { id: 2, img: "/images/attiéké-poisson.png" },
+  { id: 3, img: "/images/attiéké-poulet-braisé.png" },
+  { id: 4, img: "/images/poisson.jpeg" },
+  { id: 5, img: "/images/poulet.jpeg" },
+  { id: 6, img: "/images/Riz-poulet.png" },
+  { id: 7, img: "/images/Tchep-poulet.png" },
   { id: 8, img: "/images/maca.png" },
+  { id: 7, img: "/images/Tchepoisson.png" },
+  { id: 8, img: "/images/yassa-poulet.png" },
 ];
 
 export default function ImageAnim() {

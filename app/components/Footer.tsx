@@ -1,18 +1,24 @@
 import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-10 px-4 md:px-10">
       <div className="max-w-6xl mx-auto">
 
-        {/* LOGO */}
+        {/* LOGO CENTRÉ */}
         <div className="flex justify-center mb-8">
-          <img
-            src="/logo.png"
-            alt="Bon Sens Logo"
-            className="h-16 md:h-20 object-contain"
-          />
+          <Link href="/">
+            <Image
+              src="/images/Logo.jpeg"
+              alt="logo"
+              width={120}
+              height={60}
+              className="w-28 md:w-32 h-auto object-contain"
+            />
+          </Link>
         </div>
 
         {/* CONTENU */}
