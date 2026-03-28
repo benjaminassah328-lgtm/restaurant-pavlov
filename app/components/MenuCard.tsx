@@ -61,7 +61,7 @@ export default function MenuSection() {
         <div className="flex justify-center gap-6 mt-10 flex-wrap">
           <CircleImage src="/images/poulet.jpeg" />
           <CircleImage src="/images/poisson.jpeg" />
-          <CircleImage src="/images/tchepoisson.png" />
+          <CircleImage src="/images/Riz-poulet.png" />
           <CircleImage src="/images/maca.png" />
         </div>
 
